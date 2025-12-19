@@ -43,11 +43,12 @@ This project helps students and educators understand exam difficulty, marks vs r
 ---
 wbjee-analysis/
 │
-├── index.html      # Main HTML file
-├── styles.css      # Styling (gradient background, hover effects, dark footer)
-├── data.js         # Year-wise data (difficulty, videos, marks vs rank, chapter weights)
-├── script.js       # Rendering logic (sections, charts, autoplay video hover)
-└── README.md       # Project documentation
+├── index.html        # Main HTML file
+├── styles.css        # Styling (gradient background, hover effects, dark footer)
+├── data.js           # Year-wise data (difficulty, videos, marks vs rank, chapter weights)
+├── script.js         # Rendering logic (sections, charts, autoplay video hover)
+└── README.md         # Project documentation
+
 # 🚀 Installation & Usage
 
 1. **Clone the repository**
