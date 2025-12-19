@@ -1,0 +1,152 @@
+:root {
+    --bg-gradient: linear-gradient(135deg, #f9fafb, #e5e7eb); /* soft gradient background */
+    --card: #ffffff;
+    --text: #111827;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --border: #d1d5db;
+  }
+  
+  /* Reset */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, Segoe UI, Roboto, Arial, sans-serif;
+    background: var(--bg-gradient); /* gradient background */
+    color: var(--text);
+  }
+  
+  /* Header */
+  .site-header {
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #e5e7eb, #1f2937);
+    border-bottom: 4px solid #374151;
+  }
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .logo {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  .logo:hover {
+    transform: rotate(-5deg) scale(1.1);
+    filter: drop-shadow(0 0 10px rgba(37,99,235,0.6));
+  }
+  .title-block { text-align: center; }
+  .main-title {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    color: #111827;
+  }
+  .subtitle {
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #f9fafb;
+  }
+  
+  /* Year section */
+  .year-section {
+    margin: 30px auto;
+    max-width: 1100px;
+    padding: 20px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Blocks */
+  .block { margin-top: 20px; }
+  .block h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  /* Paper level cards */
+  .difficulty-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .difficulty-card {
+    background: #f9fafb;
+    color: var(--text);
+    border: 2px solid #374151;
+    border-radius: 12px;
+    padding: 20px;
+    min-width: 180px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .difficulty-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(37,99,235,0.3); /* blue glow */
+  }
+  .difficulty-card .label { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+  .difficulty-card .value { font-size: 15px; color: #374151; }
+  
+  /* Video */
+  .video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+  }
+  .video-wrap iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+  }
+  
+  /* Table */
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    background: #1f2937;
+    color: #f9fafb;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px;
+  }
+  tbody td { padding: 10px; border-top: 1px solid var(--border); }
+  tbody tr:nth-child(even) { background: #f3f4f6; }
+  
+  /* Chart */
+  .chart-wrap {
+    background: #f9fafb;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .chart-meta {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  
+  /* Footer */
+  .site-footer {
+    padding: 20px;
+    text-align: center;
+    color: #f9fafb;
+    background: #111827; /* dark footer */
+    border-top: 1px solid #374151;
+  }
