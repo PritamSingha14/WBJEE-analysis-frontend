@@ -41,8 +41,13 @@ This project helps students and educators understand exam difficulty, marks vs r
 - **Design:** Responsive layout, gradient backgrounds, hover animations  
 
 ---
-wbjee-analysis/ │ ├── index.html        # Main HTML file ├── styles.css        # Styling (gradient background, hover effects, dark footer) ├── data.js           # Year-wise data (difficulty, videos, marks vs rank, chapter weights) ├── script.js         # Rendering logic (sections, charts, autoplay video hover) └── README.md         # Project documentation
-
+wbjee-analysis/
+│
+├── index.html      # Main HTML file
+├── styles.css      # Styling (gradient background, hover effects, dark footer)
+├── data.js         # Year-wise data (difficulty, videos, marks vs rank, chapter weights)
+├── script.js       # Rendering logic (sections, charts, autoplay video hover)
+└── README.md       # Project documentation
 # 🚀 Installation & Usage
 
 1. **Clone the repository**
@@ -72,4 +77,4 @@ wbjee-analysis/ │ ├── index.html        # Main HTML file ├── style
 Feel free to use, modify, and share with attribution.👨‍💻 AuthorDeveloped by Pritam Singha
 Focused on blending technical robustness with modern UI/UX for educational tools.
 
-## 📂 Project Structure
+
