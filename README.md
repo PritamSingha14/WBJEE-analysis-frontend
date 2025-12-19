@@ -40,7 +40,9 @@ This project helps students and educators understand exam difficulty, marks vs r
 - **Frontend:** HTML5, CSS3, JavaScript    
 - **Design:** Responsive layout, gradient backgrounds, hover animations  
 
----
+## 📁 Project Structure
+
+```text
 wbjee-analysis/
 │
 ├── index.html        # Main HTML file
@@ -48,6 +50,7 @@ wbjee-analysis/
 ├── data.js           # Year-wise data (difficulty, videos, marks vs rank, chapter weights)
 ├── script.js         # Rendering logic (sections, charts, autoplay video hover)
 └── README.md         # Project documentation
+```
 
 # 🚀 Installation & Usage
 
